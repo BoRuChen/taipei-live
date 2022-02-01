@@ -12,7 +12,6 @@ const App = () => {
     const data = useSelector(state => state.dataReducer)
     useEffect(() => {
         dispatch(getData(selectTown))
-        console.log(data[selectTown])
     }, [selectTown]);
 
 
@@ -24,7 +23,7 @@ const App = () => {
               </div>
               <div style={{textAlign:"center"}}>109年人口戶數及性別</div>
           </div>
-          <div style={{height:'100vh',flex:'1 1 200px',background:'#FCFCFC'}}>
+          <div style={{height:'100vh',flex:'1 0 320px',background:'#FCFCFC',minWidth:'320px'}}>
               <div style={{display:'flex',alignItems:'flex-end',height:'10%',width:'100%',marginLeft:'30px'}}>
                   地區&nbsp;&nbsp;
                   <select style={{width:'100px'}} value={selectTown} onChange={(e) => {
@@ -35,7 +34,7 @@ const App = () => {
                       })}
                   </select>
               </div>
-              <div style={{height:'60%',width:'100%',minWidth:'480px'}}>
+              <div style={{height:'60%',width:'100%'}}>
                   {data[selectTown] && <BarChart data={data[selectTown]}/>}
               </div>
           </div>
