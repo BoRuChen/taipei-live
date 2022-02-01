@@ -21,9 +21,6 @@ export const BarChart = ({data}) => {
                 },
                 yAxis: {
                     type: 'value',
-                    nameTextStyle:{
-                        borderColor:'red'
-                    }
                 },
                 series: [
                     {
@@ -46,7 +43,7 @@ export const BarChart = ({data}) => {
             }}
             notMerge={true}
             lazyUpdate={true}
-            style={{width: '100%',height:'100%',padding:'20px'}}
+            style={{width: '90%',height:'90%'}}
         />
     )
 }

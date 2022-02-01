@@ -24,7 +24,7 @@ const App = () => {
               </div>
               <div style={{textAlign:"center"}}>109年人口戶數及性別</div>
           </div>
-          <div style={{height:'100vh',flex:'1 1 500px',background:'#FCFCFC'}}>
+          <div style={{height:'100vh',flex:'1 1 200px',background:'#FCFCFC'}}>
               <div style={{display:'flex',alignItems:'flex-end',height:'10%',width:'100%',marginLeft:'30px'}}>
                   地區&nbsp;&nbsp;
                   <select style={{width:'100px'}} value={selectTown} onChange={(e) => {
@@ -35,7 +35,7 @@ const App = () => {
                       })}
                   </select>
               </div>
-              <div style={{height:'60%'}}>
+              <div style={{height:'60%',width:'100%',minWidth:'480px'}}>
                   {data[selectTown] && <BarChart data={data[selectTown]}/>}
               </div>
           </div>
