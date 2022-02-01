@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/BoRuChen/taipei-live/static/css/main.a27d963b.css",
-    "main.js": "/BoRuChen/taipei-live/static/js/main.ab3d2591.js",
-    "static/media/taipeilogo.png": "/BoRuChen/taipei-live/static/media/taipeilogo.485cc5d8643acb6500df.png",
-    "index.html": "/BoRuChen/taipei-live/index.html",
-    "main.a27d963b.css.map": "/BoRuChen/taipei-live/static/css/main.a27d963b.css.map",
-    "main.ab3d2591.js.map": "/BoRuChen/taipei-live/static/js/main.ab3d2591.js.map"
+    "main.css": "/taipei-live/static/css/main.a27d963b.css",
+    "main.js": "/taipei-live/static/js/main.e95c6def.js",
+    "static/media/taipeilogo.png": "/taipei-live/static/media/taipeilogo.485cc5d8643acb6500df.png",
+    "index.html": "/taipei-live/index.html",
+    "main.a27d963b.css.map": "/taipei-live/static/css/main.a27d963b.css.map",
+    "main.e95c6def.js.map": "/taipei-live/static/js/main.e95c6def.js.map"
   },
   "entrypoints": [
     "static/css/main.a27d963b.css",
-    "static/js/main.ab3d2591.js"
+    "static/js/main.e95c6def.js"
   ]
 }
