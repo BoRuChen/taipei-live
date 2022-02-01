@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.a27d963b.css",
-    "main.js": "./static/js/main.70b0cae7.js",
+    "main.js": "./static/js/main.0df4088e.js",
     "static/media/taipeilogo.png": "./static/media/taipeilogo.485cc5d8643acb6500df.png",
     "index.html": "./index.html",
     "main.a27d963b.css.map": "./static/css/main.a27d963b.css.map",
-    "main.70b0cae7.js.map": "./static/js/main.70b0cae7.js.map"
+    "main.0df4088e.js.map": "./static/js/main.0df4088e.js.map"
   },
   "entrypoints": [
     "static/css/main.a27d963b.css",
-    "static/js/main.70b0cae7.js"
+    "static/js/main.0df4088e.js"
   ]
 }
